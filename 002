@@ -1,0 +1,10 @@
+(* Sum the even Fibonacci numbers below 4 million *)
+
+n = 1; f = 0; sum = 0;
+While[
+ f < 4*10^6,
+ f = Fibonacci[n];
+ If[EvenQ[f], sum += f];
+ n++
+ ]
+sum
