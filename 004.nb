@@ -1,5 +1,5 @@
 (* Find the largest palindromic number formed by the product of two 3-digit numbers *)
 
-(* Make a reasonable assumption here that we need to 9## numbers *)
+(* Make a reasonable assumption here that we need two 9## numbers *)
 
 Max@ParallelTable[If[a b == IntegerReverse[a b], a b, Nothing], {a, 901, 999}, {b, 901, 999}]
