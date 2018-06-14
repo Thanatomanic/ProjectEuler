@@ -1,0 +1,4 @@
+(* Find the smallest positive number divisible by all numbers 1 .. 20 *)
+
+(* Mostly manual work *)
+Times @@ Prime[Range[8]]*2*3*4
