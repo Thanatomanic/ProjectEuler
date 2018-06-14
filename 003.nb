@@ -1,0 +1,3 @@
+(* Find the largest primefactor of 600851475143 *)
+
+Max@FactorInteger[600851475143]
